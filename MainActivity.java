@@ -18,6 +18,9 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
+    //Nueva variable con los cambios para mostrar en DialogInterface
+    private String variableParaGitHub = 'Variable agregada para que se muestren los cambios del fork y se puede hacer un pull request';
+
     // 3.a referencias a las vistas
     private EditText mClave, mNombre, mInstitucion, mCorreo, mCantidad;
 
@@ -283,11 +286,3 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 }
-
-
-
-
-
-
-
-
