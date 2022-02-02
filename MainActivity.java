@@ -239,9 +239,14 @@ public class MainActivity extends AppCompatActivity {
         //10.b eliminación del registro
         int clave = Integer.parseInt(mClave.getText().toString());
         bDatos.delete(NOMBRE_TABLA, CAMPO1 + " = "+ clave,null);
-        Toast.makeText(this, "Registro eliminado",Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Regitro ",Toast.LENGTH_SHORT).show();
         limpiarCampos();
         bDatos.close();
+    }
+
+    private void Modificador(){
+        //Este metodo solo muestra evidencia de que modifique codigo
+        Toast.makeText(this, "Aqui estuvo Misael Alexander Salazar Hernández",Toast.LENGTH_SHORT).show();
     }
 
     //11 crear la funcón para ver la lista

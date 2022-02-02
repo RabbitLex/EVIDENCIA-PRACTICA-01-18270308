@@ -19,6 +19,7 @@ public class AdminBDEventos extends SQLiteOpenHelper
     public static final String CAMPO3 = "institucion";
     public static final String CAMPO4 = "correo";
     public static final String CAMPO5 = "cantidad";
+    public static final String AGREGAR = "agregar";
 
     // 1.c indicador para el contexto
     private Context contexto;
